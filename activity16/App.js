@@ -1,8 +1,8 @@
 import React from 'react';
-import Display from './components/Display';
+import Form from './components/Form/index';
 
 function App() {
-  return <Display />;
+  return <Form />;
 }
 
 export default App;
