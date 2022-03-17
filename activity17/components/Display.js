@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 export default function Display() {
   const [count, setCount] = useState(0);
@@ -6,7 +6,7 @@ export default function Display() {
   // When the state changes run this callback
   useEffect(() => {
     // Update the localStorage count variable using the setItem method
-    localStorage.setItem('myCount', count);
+    localStorage.setItem("myCount", count);
   });
 
   const handleIncrease = () => {
